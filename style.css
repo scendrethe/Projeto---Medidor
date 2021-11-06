@@ -1,0 +1,239 @@
+.imagem {
+    position: relative;
+    text-align: center;
+} 
+
+h1 {
+    -webkit-text-stroke-color: rgb(118, 118, 118);
+    -webkit-text-stroke-width: 2px;
+    color: white;   
+    text-align: center;
+    border: white; 
+    font-family: Impact, fantasy;
+    font-size: 35px;
+    letter-spacing: 1px;
+    position: relative;
+    bottom: 105px;
+}
+
+body {
+
+    background-image: url(https://revista.abrale.org.br/wp-content/uploads/2021/02/diabetes_e_cancer.jpg);
+}
+
+section{
+    border-radius: 10px;
+    position: relative;
+    left: 39%;
+    color: rgb(118, 118, 118);
+    font-size: 15px;
+    letter-spacing: 0.8px;
+    text-align: center;
+    font-family: Impact, fantasy;
+    width: 300px;
+    height: 480px;
+    margin-top: 100px;
+    background-color: whitesmoke;
+    align-content: center;
+}
+
+.nome{
+    position: absolute;
+    background-color: lightblue;
+    bottom: 86%;
+    left: 8%;
+    width: 84%;
+    height: 7%;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    font: verdana;
+    color: black;
+    letter-spacing: 0.8px;
+}
+
+.NomeEstilo {
+    position: absolute;
+    bottom: 93%;
+    left: 8%;
+}
+
+.DataDeNascimento {
+    position: absolute;
+    bottom: 80%;
+    width: 84%;
+    height: 5%;
+    left: -8%;
+}
+
+input[type="date" i] {
+    background-color: lightblue;
+    padding: 1px 2px;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    font: verdana;
+    font-size: 15px;
+    color: black;
+    position:  absolute;
+    width: 84%;
+    height: 7%;
+    left: 8%;
+    bottom: 73%;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+}
+
+.glicemia {
+    position: absolute;
+    background-color: lightblue;
+    bottom: 10%;
+    left: 8%;
+    width: 84%;
+    height: 7%;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    font: verdana;
+    color: black;
+    letter-spacing: 0.8px;    
+}
+
+.GlicemiaEstilo {
+    position: absolute;
+    bottom: 17%;
+    left: 9%;
+}
+
+.TipoDeDiabetes1 {
+    
+    position: absolute;
+    bottom: 28%;
+    left: 50%; 
+}
+
+.TipoDeDiabetes2 {
+    position: absolute;
+    bottom: 24%;
+    left: 50%; 
+}
+
+.tipo {
+    position: absolute;
+    bottom: 32%;
+    left: 25%;    
+}
+
+.container {
+    position: absolute;
+    bottom: 27%;
+    left: -10%; 
+
+}
+.container2 {
+    position: absolute;
+    bottom: 23%;
+    left: 33%; 
+}
+
+.endereco {
+    position: absolute;
+    bottom: 66%;
+    left: 8%;
+}
+
+.cep {
+    position: absolute;
+    bottom: 65%;
+    left: 19%;
+    background-color: lightblue;
+    width: 73%;
+    height: 7%;
+    font: verdana;
+    color: black;
+    font-size: 15px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+}
+
+.logradouro {
+    position: absolute;
+    bottom: 58%;
+    left: 8%;
+    background-color: lightblue;
+    width: 84%;
+    height: 7%;
+    font: verdana;
+    color: black;
+    font-size: 15px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+}
+
+.bairro {
+    position: absolute;
+    bottom: 51%;
+     left: 8%;
+    background-color: lightblue;
+    width: 84%;
+    height: 7%;
+    font: verdana;
+    color: black;
+    font-size: 15px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+}
+
+.cidade {
+    position: absolute;
+    bottom: 44%;
+    left: 8%;
+    background-color: lightblue;
+    width: 84%;
+    height: 7%;
+    font: verdana;
+    color: black;
+    font-size: 15px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+}
+
+.estado {
+    position: absolute;
+    bottom: 37%;
+    left: 8%;
+    background-color: lightblue;
+    width: 84%;
+    height: 7%;
+    font: verdana;
+    color: black;
+    font-size: 15px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+}
+
+
+.cadastrar {
+    position: absolute;
+    bottom: 3%;
+    border: 2px lightblue;
+    border-radius: 5px;
+    font-family: Impact, fantasy;
+    color: rgb(118, 118, 118);
+    background-color: lightblue;
+    left: 37%;
+    width: 30%;
+    height: 5%;
+}
+.modalTitulo {
+    position: absolute;
+    color: rgb(70,130,180);
+    left: 22%;
+    font-size: 30px;
+    letter-spacing: 0.8px;
+    font-family: Impact, fantasy;
+}
+.modalCorpo {
+    position: relative;
+    color: rgb(112,128,144);
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0.8px;
+}
